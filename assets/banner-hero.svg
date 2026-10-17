@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" font-family="Segoe UI, Arial, Helvetica, sans-serif" role="img" aria-label="BangladeshExport.com - B2B sourcing and trade platform connecting Bangladesh to worldwide buyers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04140E"/>
+      <stop offset="1" stop-color="#0A2B1E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.5" r="0.42">
+      <stop offset="0" stop-color="#00A86B" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#00A86B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="divg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00A86B"/>
+      <stop offset="1" stop-color="#F4C95D"/>
+    </linearGradient>
+    <linearGradient id="routeg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F4C95D"/>
+      <stop offset="1" stop-color="#7CFFC4"/>
+    </linearGradient>
+    <linearGradient id="strip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#006A4E"/>
+      <stop offset="0.55" stop-color="#00A86B"/>
+      <stop offset="1" stop-color="#F42A41"/>
+    </linearGradient>
+    <style>
+      .lat{fill:none;stroke:#1F7A55;stroke-width:1;opacity:.7}
+      .mer{fill:none;stroke:#2E9C6E;stroke-width:1.1;opacity:.85}
+      .route{fill:none;stroke:url(#routeg);stroke-width:1.8;stroke-linecap:round;stroke-dasharray:2 9;animation:flow 2.6s linear infinite}
+      .route2{fill:none;stroke:#F4C95D;stroke-width:1.5;opacity:.85;stroke-linecap:round;stroke-dasharray:2 9;animation:flow 3.1s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-66}}
+      .ping{fill:#7CFFC4}
+      .ring{fill:none;stroke:#00E696;stroke-width:1.4}
+      .p1{animation:ping 2.6s ease-out infinite}
+      .p2{animation:ping 2.6s ease-out infinite;animation-delay:.65s}
+      .p3{animation:ping 2.6s ease-out infinite;animation-delay:1.3s}
+      .p4{animation:ping 2.6s ease-out infinite;animation-delay:1.95s}
+      .bdpulse{animation:ping 2.2s ease-out infinite}
+      @keyframes ping{0%{r:4;opacity:.95}70%{r:17;opacity:0}100%{r:17;opacity:0}}
+      .tw{animation:tw 3.4s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.12}50%{opacity:.55}}
+      .ship{animation:ship 6s ease-in-out infinite alternate}
+      @keyframes ship{from{transform:translate(0,0)}to{transform:translate(26px,-8px)}}
+    </style>
+  </defs>
+
+  <rect width="880" height="340" rx="14" fill="url(#bg)"/>
+  <rect width="880" height="340" rx="14" fill="url(#glow)"/>
+  <rect x="0" y="334" width="880" height="6" rx="3" fill="url(#strip)"/>
+
+  <!-- faint latitude grid -->
+  <g opacity="0.35">
+    <path class="lat" d="M 40 90 Q 440 62 840 90"/>
+    <path class="lat" d="M 40 170 Q 440 148 840 170"/>
+    <path class="lat" d="M 40 250 Q 440 228 840 250"/>
+  </g>
+  <g fill="#35B57F">
+    <circle class="tw" cx="70" cy="60" r="1.3"/>
+    <circle class="tw" style="animation-delay:1.2s" cx="836" cy="52" r="1.4"/>
+    <circle class="tw" style="animation-delay:2.1s" cx="512" cy="308" r="1.2"/>
+    <circle class="tw" style="animation-delay:.6s" cx="440" cy="46" r="1.1"/>
+  </g>
+
+  <!-- LEFT: text block -->
+  <!-- mini Bangladesh flag chip -->
+  <g transform="translate(48,52)">
+    <rect width="36" height="23" rx="3" fill="#006A4E"/>
+    <circle cx="18" cy="11.5" r="5.4" fill="#F42A41"/>
+    <text x="46" y="16" font-size="13" font-weight="600" fill="#7EE0B8" letter-spacing="2.5">BANGLADESH &#8594; WORLDWIDE</text>
+  </g>
+  <text x="48" y="140" font-size="46" font-weight="700" fill="#FFFFFF">BangladeshExport<tspan fill="#7CFFC4">.com</tspan></text>
+  <text x="48" y="176" font-size="19" fill="#9BD9BE">B2B Sourcing &amp; Trade Information Platform</text>
+  <rect x="48" y="194" width="330" height="2.5" rx="1.25" fill="url(#divg)"/>
+  <text x="48" y="226" font-size="15" fill="#CDEEDF">21,000+ Suppliers &#183; 4,900+ Products &#183; RFQ Enquiries</text>
+  <text x="48" y="250" font-size="15" fill="#CDEEDF">Trade Laws &#183; EPB Export Data &#183; Startup BD &#183; Invest in Bangladesh</text>
+  <!-- domain pill -->
+  <g transform="translate(48,272)">
+    <rect width="216" height="34" rx="17" fill="#06231A" stroke="#00A86B" stroke-width="1.2"/>
+    <circle cx="19" cy="17" r="8.5" fill="none" stroke="#7CFFC4" stroke-width="1.3"/>
+    <ellipse cx="19" cy="17" rx="8.5" ry="3.6" fill="none" stroke="#7CFFC4" stroke-width="1"/>
+    <line x1="10.5" y1="17" x2="27.5" y2="17" stroke="#7CFFC4" stroke-width="1"/>
+    <text x="38" y="22" font-size="15" font-weight="600" fill="#E8FFF4">bangladeshexport.com</text>
+  </g>
+
+  <!-- RIGHT: globe with export routes -->
+  <g transform="translate(650 170)">
+    <circle r="120" fill="#05201814" stroke="#2ECC8F" stroke-width="1.6"/>
+    <ellipse class="lat" rx="120" ry="32" cy="0"/>
+    <ellipse class="lat" rx="92" ry="28" cy="-56" opacity=".55"/>
+    <ellipse class="lat" rx="92" ry="28" cy="56" opacity=".55"/>
+    <line class="lat" x1="-120" y1="-58" x2="120" y2="-58" opacity=".35"/>
+    <line class="lat" x1="-120" y1="58" x2="120" y2="58" opacity=".35"/>
+    <ellipse class="mer" cx="0" cy="0" rx="120" ry="120">
+      <animate attributeName="rx" values="120;0;120" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse class="mer" cx="0" cy="0" rx="84" ry="120">
+      <animate attributeName="rx" values="84;0;84" dur="9s" begin="-1.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse class="mer" cx="0" cy="0" rx="42" ry="120">
+      <animate attributeName="rx" values="42;0;42" dur="9s" begin="-3s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Bangladesh silhouette on globe + origin marker -->
+  <g>
+    <path d="M 700.1,179.7 L 711.0,181.9 L 720.8,183.0 L 729.8,185.8 L 731.7,191.6 L 730.9,196.3 L 726.6,199.0 L 729.8,202.1 L 731.7,207.6 L 733.4,211.9 L 731.7,217.0 L 730.9,220.5 L 728.6,224.8 L 726.6,218.9 L 723.9,215.4 L 719.6,216.2 L 715.7,217.7 L 712.6,217.0 L 709.1,217.0 L 706.4,218.1 L 704.8,216.2 L 705.2,211.5 L 703.0,204.1 L 704.6,197.5 L 698.2,194.3 L 701.3,185.0 Z" fill="#00A86B" stroke="#7CFFC4" stroke-width="1.2" opacity="0.95"/>
+    <circle cx="718" cy="205" r="4" fill="#F42A41"/>
+    <circle class="ring bdpulse" cx="718" cy="205" r="4"/>
+    <text x="718" y="243" font-size="11.5" font-weight="700" fill="#7CFFC4" text-anchor="middle" letter-spacing="1.5">BANGLADESH</text>
+  </g>
+
+  <!-- export routes from BD to the world -->
+  <path class="route" d="M 718,205 Q 671,99 556,92"/>
+  <path class="route" d="M 718,205 Q 789,151 760,66"/>
+  <path class="route2" d="M 718,205 Q 757,248 790,200"/>
+  <path class="route" d="M 718,205 Q 637,212 600,285"/>
+  <!-- destinations -->
+  <g>
+    <circle class="ping" cx="556" cy="92" r="3.4"/><circle class="ring p1" cx="556" cy="92" r="4"/>
+    <circle class="ping" cx="760" cy="66" r="3.4"/><circle class="ring p2" cx="760" cy="66" r="4"/>
+    <circle class="ping" cx="790" cy="200" r="3.4"/><circle class="ring p3" cx="790" cy="200" r="4"/>
+    <circle class="ping" cx="600" cy="285" r="3.4"/><circle class="ring p4" cx="600" cy="285" r="4"/>
+  </g>
+  <text x="546" y="80" font-size="10.5" fill="#9BD9BE" text-anchor="middle" letter-spacing="1">EU</text>
+  <text x="772" y="54" font-size="10.5" fill="#9BD9BE" text-anchor="middle" letter-spacing="1">AMERICAS</text>
+  <text x="806" y="216" font-size="10.5" fill="#9BD9BE" text-anchor="middle" letter-spacing="1">ME / AFRICA</text>
+  <text x="588" y="302" font-size="10.5" fill="#9BD9BE" text-anchor="middle" letter-spacing="1">APAC</text>
+
+  <!-- tiny container ship on southern route -->
+  <g class="ship" transform="translate(648,252)">
+    <path d="M -14 3 L 14 3 L 10 9 L -10 9 Z" fill="#F4C95D"/>
+    <rect x="-11" y="-4" width="7" height="6" rx="1" fill="#7CFFC4"/>
+    <rect x="-2" y="-4" width="7" height="6" rx="1" fill="#00A86B"/>
+    <rect x="7" y="-4" width="6" height="6" rx="1" fill="#7CFFC4"/>
+  </g>
+</svg>
