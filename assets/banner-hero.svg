@@ -99,10 +99,10 @@
     </ellipse>
   </g>
 
-  <!-- Bangladesh silhouette on globe + origin marker -->
+  <!-- Bangladesh flag marker on globe (official 10:6 ratio) + origin pulse -->
   <g>
-    <path d="M 700.1,179.7 L 711.0,181.9 L 720.8,183.0 L 729.8,185.8 L 731.7,191.6 L 730.9,196.3 L 726.6,199.0 L 729.8,202.1 L 731.7,207.6 L 733.4,211.9 L 731.7,217.0 L 730.9,220.5 L 728.6,224.8 L 726.6,218.9 L 723.9,215.4 L 719.6,216.2 L 715.7,217.7 L 712.6,217.0 L 709.1,217.0 L 706.4,218.1 L 704.8,216.2 L 705.2,211.5 L 703.0,204.1 L 704.6,197.5 L 698.2,194.3 L 701.3,185.0 Z" fill="#00A86B" stroke="#7CFFC4" stroke-width="1.2" opacity="0.95"/>
-    <circle cx="718" cy="205" r="4" fill="#F42A41"/>
+    <rect x="701" y="195" width="34" height="21" rx="3.5" fill="#006A4E" stroke="#7CFFC4" stroke-width="1.1"/>
+    <circle cx="716.3" cy="205.5" r="6.8" fill="#F42A41"/>
     <circle class="ring bdpulse" cx="718" cy="205" r="4"/>
     <text x="718" y="243" font-size="11.5" font-weight="700" fill="#7CFFC4" text-anchor="middle" letter-spacing="1.5">BANGLADESH</text>
   </g>
