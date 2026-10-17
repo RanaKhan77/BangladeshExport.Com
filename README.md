@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://bangladeshexport.com">
+    <img src="assets/banner-hero.svg" alt="BangladeshExport.com - B2B Sourcing and Trade Platform connecting Bangladesh to worldwide buyers" width="100%">
+  </a>
+</p>
+
 # 🇧🇩 BangladeshExport.com
 
 ### Connecting Global Buyers with Bangladesh
@@ -160,6 +166,12 @@ As the platform develops, its directories and information resources may be updat
 BangladeshExport.com aims to provide a digital starting point for international buyers, Bangladeshi exporters, manufacturers, entrepreneurs, suppliers, and investors seeking to explore the country's business ecosystem.
 
 By combining supplier discovery, product information, startup profiles, trade directories, and investment resources, the platform seeks to make Bangladesh's export opportunities easier to discover and encourage direct commercial connections with potential international partners.
+
+<p align="center">
+  <a href="https://bangladeshexport.com">
+    <img src="assets/banner-cta.svg" alt="Source from Bangladesh to the World - bangladeshexport.com" width="88%">
+  </a>
+</p>
 
 ---
 
